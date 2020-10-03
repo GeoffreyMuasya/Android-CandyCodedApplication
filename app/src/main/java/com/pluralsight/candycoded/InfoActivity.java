@@ -1,5 +1,6 @@
 package com.pluralsight.candycoded;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +25,8 @@ public class InfoActivity extends AppCompatActivity {
 
     }
     public void createMapIntent(View view){
-        Uri adress=Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801").buildUpon().build();
+        Uri address=Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801").buildUpon().build();
+        Intent mapIntent=new Intent(Intent.ACTION_VIEW,address);
 
     }
 
