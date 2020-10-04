@@ -33,6 +33,9 @@ public class InfoActivity extends AppCompatActivity {
             startActivity(mapIntent);
         }
     }
+    public void createPhoneIntent(View view){
+
+    }
 
 
 
