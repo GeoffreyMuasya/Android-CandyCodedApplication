@@ -74,6 +74,9 @@ public class DetailActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    private void createShareIntent(){
+
+    }
     // ***
     // TODO - Task 4 - Share the Current Candy with an Intent
     // ***
